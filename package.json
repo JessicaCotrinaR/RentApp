@@ -5,23 +5,32 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "eject": "expo eject"
+    "eject": "expo eject",
+    "seed": "node script/seed.js"
   },
   "dependencies": {
     "@react-native-community/masked-view": "^0.1.10",
     "@react-navigation/bottom-tabs": "^5.10.6",
     "@react-navigation/native": "^5.8.6",
+    "connect-session-sequelize": "^6.0.0",
     "expo": "~39.0.2",
     "expo-status-bar": "~1.0.2",
+    "firebase": "^8.0.2",
+    "pg": "^8.5.1",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-native": "https://github.com/expo/react-native/archive/sdk-39.0.4.tar.gz",
+    "react-native-chart-kit": "^6.7.0",
+    "react-native-fb-image-grid": "0.0.4",
     "react-native-gesture-handler": "^1.8.0",
     "react-native-reanimated": "^1.13.1",
     "react-native-screens": "^2.13.0",
+    "react-native-svg": "^12.1.0",
+    "react-native-table-component": "^1.2.1",
     "react-native-web": "~0.13.12",
     "react-navigation": "^4.4.3",
-    "react-navigation-stack": "^2.10.1"
+    "react-navigation-stack": "^2.10.1",
+    "sequelize": "^5.3.1"
   },
   "devDependencies": {
     "@babel/core": "~7.9.0"
